@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+  background-color: #e9e279;
+}
+
+/* header
+------------------------------ */
+#header {
+  width: 100%;
+  background-color: #d5c800;
+}
+#header .wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#header p {
+  float: left;
+  margin: 22px 0 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#header ul {
+  float: right;
+  margin: 28px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+#header ul li {
+  float: left;
+  margin-right: 40px;
+}
+#header ul li:last-child {
+  margin-right: 0;
+}
+
+/* content1
+------------------------------ */
+#content1 {
+  background-color: #e1da65;
+}
+
+#content1 .wrapper {
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#content1 figure {
+  width: 50%;
+}
+#content1 figure img {
+  max-width: 80%;
+}
+
+#content1 .text_area {
+  padding-top: 15px;
+  width: 50%;
+}
+
+#content1 .text_area h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #df7900;
+}
+
+#content1 .text_area p {
+  font-size: 1.5rem;
+  line-height: 2.2em;
+}
+
+
+#content2 .link_contact a {
+  display: inline-block;
+  padding: 15px 60px;
+  color: #fff;
+  font-size: 1.0rem;
+  font-weight: 500;
+  box-shadow: 0 5px 0 #b07c00;
+  background-color: #e29000;
+}
+
+#content2 {
+  width: 100%;
+}
+
+#content2 .wrapper {
+  margin: 0 auto;
+  padding: 50px 0 100px;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+#content2 .link_contact a:hover {
+  background-color: #e89d19;
+}
+
+/* information
+------------------------------ */
+#information {
+  padding: 80px 0 100px;
+  color: #222;
+  text-align: center;
+  background-color: #e9e279;
+}
+
+#information .wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#information h1 {
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 4px solid #222;
+}
+
+#information article {
+  margin-bottom: 40px;
+  padding: 40px 40px 35px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+#information article .text_date {
+  font-size: 0.85rem;
+}
+
+#information article h2 {
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  font-size: 1.15rem;
+  line-height: 1.8em;
+  border-bottom: 2px solid #d5c800;
+}
+
+#information article .text_content {
+  line-height: 2.0em;
+  font-size: 0.85rem;
+}
