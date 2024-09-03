@@ -3,14 +3,14 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #222;
-  background-color: #e9e279;
+  background-color: #b9d08b;
 }
 
 /* header
 ------------------------------ */
 #header {
   width: 100%;
-  background-color: #d5c800;
+  background-color: #aacf53;
 }
 #header .wrapper {
   overflow: hidden;
@@ -43,7 +43,7 @@ body {
 /* content1
 ------------------------------ */
 #content1 {
-  background-color: #e1da65;
+  background-color: #b0ca71;
 }
 
 #content1 .wrapper {
