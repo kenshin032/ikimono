@@ -59,6 +59,7 @@ body {
 }
 #content1 figure img {
   max-width: 80%;
+  transform: scale(-1, 1);
 }
 
 #content1 .text_area {
